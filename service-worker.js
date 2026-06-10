@@ -1,6 +1,6 @@
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open("water-tracker-v1").then(cache =>
+    caches.open("water-tracker-v2").then(cache =>
       cache.addAll([
         "./",
         "./index.html",
